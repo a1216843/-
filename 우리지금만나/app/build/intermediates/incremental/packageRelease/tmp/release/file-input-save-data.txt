@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Sun Apr 26 15:41:47 KST 2020
-0.baseType=DIRECTORY
-0.base=C\:\\Users\\morta\\AndroidStudioProjects\\Where\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
-0.path=classes.dex
-0.set=DEX
-count=1
