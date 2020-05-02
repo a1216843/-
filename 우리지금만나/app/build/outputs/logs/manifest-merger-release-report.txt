@@ -1,0 +1,366 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:2:1-38:12
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha09.aar\f3a29e24a8c2fc85eda190d0c2811099\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-rc01.aar\6d4553f49f4218033885b84f0d85599e\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\91ba96fc81e3f11a3b09180a8807e110\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\4a1d5baf538b3736415b260b34a157a9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-18.0.0.aar\3307f95d6cda6f312a044b9ede06d3ea\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-common-18.0.0.aar\b807de502ea9e2010be6e733aba6c6b6\AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\11370062ad874b8b4e3a41635b727756\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0-beta01.aar\4eb60de99605b1f6c91571842778b1e8\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\transition-1.0.1.aar\ffdb2c694b38aa5b1671b66eb29ad050\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0-beta02.aar\2c7d7d08aa6f35ddb650bdfd2cd8ca92\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\4ec4634556abdb0a4666ef9975443286\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-flags-17.0.0.aar\ac5fbf467ebebc802bdd39bc19933339\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-17.0.0.aar\74d7c1a2aeec029cc05132b9ea6b0f8a\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-17.0.0.aar\3409a9ed079bcb6d3a56fff2a39ce123\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\6f7c50d68b8cbb47982661cbbcf37967\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\c2620dabdc73d7553822da2e702d8361\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\b90b638c26c15439e8332c28d7bf6aef\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\88b08fd405bda2d667855adc42001562\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-rc01.aar\425ef798af663dc64af89e8580c41b97\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\64a9f28f5e347f2fab357a98013045aa\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\ae39205284e2d7df0e32ab262394c1a8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\3ec575fe0f8803b0dec21dae98a02f7a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-beta01.aar\743a34fdabe631b22a9f4445428e54be\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\61ea0ca2f579a798c90cc6a9cd6f63f7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\e6ecdd46bc39df11fa816a4958dc4719\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\d2af22fcee1ab0470e7f2e1dd0651316\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\29e1b9eca5a99669a9d4d8241317bdd7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-rc01.aar\fa4a3fcf5e68273b68fd08c5a0efce25\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-rc01.aar\95dd07a12ed94027675c96f93b0b468d\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0-rc01.aar\f0b5e73da2c71c897bb0dc60f0a16d94\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0-rc01.aar\136f8c7436ff174c01f8d7d0cfc4615d\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0-rc01.aar\7dd80d6cc05ab746bce4eaca550bb5e7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\core-1.1.0-rc02.aar\f2c11417b63eca04fba22e3e42adcc4d\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-rc01.aar\76af7746d5ac1d1363c41123480b072a\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0-rc01.aar\1cc53b17f82dac16c7a0129d7a2f56a3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0-rc01.aar\2cad29bfa2c317885d95e582054f3315\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\4ab158e97090d0bd5a943d0a824eb480\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\da5e0ebdb0693b5a92bd5c32a460c94a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-17.0.0.aar\5b1d901763509f96a399f690e8eb6f69\AndroidManifest.xml:2:1-7:12
+INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:2:1-38:12
+		INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:2:1-38:12
+		INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:5:5-33:19
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha09.aar\f3a29e24a8c2fc85eda190d0c2811099\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha09.aar\f3a29e24a8c2fc85eda190d0c2811099\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\91ba96fc81e3f11a3b09180a8807e110\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\91ba96fc81e3f11a3b09180a8807e110\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\4a1d5baf538b3736415b260b34a157a9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\4a1d5baf538b3736415b260b34a157a9\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-18.0.0.aar\3307f95d6cda6f312a044b9ede06d3ea\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-18.0.0.aar\3307f95d6cda6f312a044b9ede06d3ea\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-common-18.0.0.aar\b807de502ea9e2010be6e733aba6c6b6\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-common-18.0.0.aar\b807de502ea9e2010be6e733aba6c6b6\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\6f7c50d68b8cbb47982661cbbcf37967\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\6f7c50d68b8cbb47982661cbbcf37967\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\c2620dabdc73d7553822da2e702d8361\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\c2620dabdc73d7553822da2e702d8361\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\b90b638c26c15439e8332c28d7bf6aef\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\b90b638c26c15439e8332c28d7bf6aef\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\88b08fd405bda2d667855adc42001562\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\88b08fd405bda2d667855adc42001562\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\core-1.1.0-rc02.aar\f2c11417b63eca04fba22e3e42adcc4d\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\core-1.1.0-rc02.aar\f2c11417b63eca04fba22e3e42adcc4d\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-rc01.aar\76af7746d5ac1d1363c41123480b072a\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-rc01.aar\76af7746d5ac1d1363c41123480b072a\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-rc02] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\core-1.1.0-rc02.aar\f2c11417b63eca04fba22e3e42adcc4d\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:11:9-59
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:13:9-15:71
+	android:value
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:15:13-68
+	android:name
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:14:13-58
+activity#com.example.morta.where.MainActivity
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.morta.where.MapsActivity
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:24:9-25:51
+	android:screenOrientation
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:24:19-47
+activity#com.example.morta.where.ChatActivity
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:26:9-27:44
+	android:name
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:27:13-41
+uses-library#org.apache.http.legacy
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:28:9-87
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:28:61-85
+	android:name
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:28:23-60
+activity#com.example.morta.where.StartActivity
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:29:9-30:51
+	android:screenOrientation
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:30:13-49
+	android:name
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:29:19-48
+activity#com.example.morta.where.LogInActivity
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:31:9-32:51
+	android:screenOrientation
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:32:13-49
+	android:name
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:31:19-48
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:35:5-79
+	android:name
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:35:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:36:5-81
+	android:name
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml:36:22-78
+uses-sdk
+INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha09.aar\f3a29e24a8c2fc85eda190d0c2811099\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\material-1.1.0-alpha09.aar\f3a29e24a8c2fc85eda190d0c2811099\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-rc01.aar\6d4553f49f4218033885b84f0d85599e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0-rc01.aar\6d4553f49f4218033885b84f0d85599e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\91ba96fc81e3f11a3b09180a8807e110\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.2.aar\91ba96fc81e3f11a3b09180a8807e110\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\4a1d5baf538b3736415b260b34a157a9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-location-17.0.0.aar\4a1d5baf538b3736415b260b34a157a9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-18.0.0.aar\3307f95d6cda6f312a044b9ede06d3ea\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-18.0.0.aar\3307f95d6cda6f312a044b9ede06d3ea\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-common-18.0.0.aar\b807de502ea9e2010be6e733aba6c6b6\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-common-18.0.0.aar\b807de502ea9e2010be6e733aba6c6b6\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\11370062ad874b8b4e3a41635b727756\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\11370062ad874b8b4e3a41635b727756\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0-beta01.aar\4eb60de99605b1f6c91571842778b1e8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-beta01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.1.0-beta01.aar\4eb60de99605b1f6c91571842778b1e8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\transition-1.0.1.aar\ffdb2c694b38aa5b1671b66eb29ad050\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\transition-1.0.1.aar\ffdb2c694b38aa5b1671b66eb29ad050\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0-beta02.aar\2c7d7d08aa6f35ddb650bdfd2cd8ca92\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-beta02] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\viewpager2-1.0.0-beta02.aar\2c7d7d08aa6f35ddb650bdfd2cd8ca92\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\4ec4634556abdb0a4666ef9975443286\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\4ec4634556abdb0a4666ef9975443286\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-flags-17.0.0.aar\ac5fbf467ebebc802bdd39bc19933339\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-flags-17.0.0.aar\ac5fbf467ebebc802bdd39bc19933339\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-17.0.0.aar\74d7c1a2aeec029cc05132b9ea6b0f8a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-17.0.0.aar\74d7c1a2aeec029cc05132b9ea6b0f8a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-17.0.0.aar\3409a9ed079bcb6d3a56fff2a39ce123\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-17.0.0.aar\3409a9ed079bcb6d3a56fff2a39ce123\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\6f7c50d68b8cbb47982661cbbcf37967\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\6f7c50d68b8cbb47982661cbbcf37967\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\c2620dabdc73d7553822da2e702d8361\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-17.0.0.aar\c2620dabdc73d7553822da2e702d8361\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\b90b638c26c15439e8332c28d7bf6aef\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-tasks-17.0.0.aar\b90b638c26c15439e8332c28d7bf6aef\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\88b08fd405bda2d667855adc42001562\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\88b08fd405bda2d667855adc42001562\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-rc01.aar\425ef798af663dc64af89e8580c41b97\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0-rc01.aar\425ef798af663dc64af89e8580c41b97\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\64a9f28f5e347f2fab357a98013045aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\64a9f28f5e347f2fab357a98013045aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\ae39205284e2d7df0e32ab262394c1a8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\ae39205284e2d7df0e32ab262394c1a8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\3ec575fe0f8803b0dec21dae98a02f7a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\3ec575fe0f8803b0dec21dae98a02f7a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-beta01.aar\743a34fdabe631b22a9f4445428e54be\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-beta01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\recyclerview-1.1.0-beta01.aar\743a34fdabe631b22a9f4445428e54be\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\61ea0ca2f579a798c90cc6a9cd6f63f7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\61ea0ca2f579a798c90cc6a9cd6f63f7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\e6ecdd46bc39df11fa816a4958dc4719\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\e6ecdd46bc39df11fa816a4958dc4719\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\d2af22fcee1ab0470e7f2e1dd0651316\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\d2af22fcee1ab0470e7f2e1dd0651316\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\29e1b9eca5a99669a9d4d8241317bdd7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\29e1b9eca5a99669a9d4d8241317bdd7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-rc01.aar\fa4a3fcf5e68273b68fd08c5a0efce25\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\activity-1.0.0-rc01.aar\fa4a3fcf5e68273b68fd08c5a0efce25\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-rc01.aar\95dd07a12ed94027675c96f93b0b468d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0-rc01.aar\95dd07a12ed94027675c96f93b0b468d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0-rc01.aar\f0b5e73da2c71c897bb0dc60f0a16d94\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0-rc01.aar\f0b5e73da2c71c897bb0dc60f0a16d94\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0-rc01.aar\136f8c7436ff174c01f8d7d0cfc4615d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0-rc01.aar\136f8c7436ff174c01f8d7d0cfc4615d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0-rc01.aar\7dd80d6cc05ab746bce4eaca550bb5e7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0-rc01.aar\7dd80d6cc05ab746bce4eaca550bb5e7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\core-1.1.0-rc02.aar\f2c11417b63eca04fba22e3e42adcc4d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc02] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\core-1.1.0-rc02.aar\f2c11417b63eca04fba22e3e42adcc4d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-rc01.aar\76af7746d5ac1d1363c41123480b072a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0-rc01.aar\76af7746d5ac1d1363c41123480b072a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0-rc01.aar\1cc53b17f82dac16c7a0129d7a2f56a3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0-rc01.aar\1cc53b17f82dac16c7a0129d7a2f56a3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0-rc01.aar\2cad29bfa2c317885d95e582054f3315\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0-rc01.aar\2cad29bfa2c317885d95e582054f3315\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\4ab158e97090d0bd5a943d0a824eb480\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\4ab158e97090d0bd5a943d0a824eb480\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\da5e0ebdb0693b5a92bd5c32a460c94a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\da5e0ebdb0693b5a92bd5c32a460c94a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-17.0.0.aar\5b1d901763509f96a399f690e8eb6f69\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-17.0.0.aar\5b1d901763509f96a399f690e8eb6f69\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\morta\AndroidStudioProjects\Where\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-maps-17.0.0.aar\6cba2809b330d242f8adcbb942bfbfbb\AndroidManifest.xml:28:9-32
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:33:9-39:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:29:18-89
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-database-18.0.0.aar\cfee6db6d6b82d487b6f2862d7e4befd\AndroidManifest.xml:31:17-109
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-auth-18.0.0.aar\46ce45b50656b56e367053a3f0503028\AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-auth-17.0.0.aar\103801ff64ecccadcf194445ca875d80\AndroidManifest.xml:34:13-89
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-common-18.0.0.aar\b807de502ea9e2010be6e733aba6c6b6\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-common-18.0.0.aar\b807de502ea9e2010be6e733aba6c6b6\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-common-18.0.0.aar\b807de502ea9e2010be6e733aba6c6b6\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-common-18.0.0.aar\b807de502ea9e2010be6e733aba6c6b6\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\firebase-common-18.0.0.aar\b807de502ea9e2010be6e733aba6c6b6\AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\6f7c50d68b8cbb47982661cbbcf37967\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\6f7c50d68b8cbb47982661cbbcf37967\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\6f7c50d68b8cbb47982661cbbcf37967\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\play-services-base-17.0.0.aar\6f7c50d68b8cbb47982661cbbcf37967\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\88b08fd405bda2d667855adc42001562\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\88b08fd405bda2d667855adc42001562\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\morta\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-17.0.0.aar\88b08fd405bda2d667855adc42001562\AndroidManifest.xml:24:13-58
