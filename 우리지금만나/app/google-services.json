@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "440184654807",
+    "firebase_url": "https://inlaid-theater-275012.firebaseio.com",
+    "project_id": "inlaid-theater-275012",
+    "storage_bucket": "inlaid-theater-275012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440184654807:android:0f98d2d1b82c69483a1992",
+        "android_client_info": {
+          "package_name": "com.example.morta.where"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440184654807-gfqcfc8vh1f245hi7os9qncugrto2fuc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.morta.where",
+            "certificate_hash": "a0314f1458488ff27488c3a33f902dbca08b4e06"
+          }
+        },
+        {
+          "client_id": "440184654807-mfnl5nihdua6r15nt3c8n5h46u8l06kb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.morta.where",
+            "certificate_hash": "389c2eb7cc71709d02ed7ffcae44897db457c66e"
+          }
+        },
+        {
+          "client_id": "440184654807-qkec2gi3kgapqu103dbaghbcfrnuftgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXg3Rxgc-3w936NBIw2Y8LqGVSMNri2kI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440184654807-qkec2gi3kgapqu103dbaghbcfrnuftgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
