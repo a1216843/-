@@ -34,17 +34,17 @@ public class LogInActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
         signInButton = findViewById(R.id.signInButton);
 
 
-        mAuth = FirebaseAuth.getInstance();
+        mAuth = FirebaseAuth.getInstance(); //사용자 인증기능을 하는 FirebaseAuth에 Instance를 가져옴
         if (mAuth.getCurrentUser() != null) {
-            Intent intent = new Intent(getApplication(), StartActivity.class);
+            Intent intent = new Intent(getApplication(), StoreTestActivity.class);
             startActivity(intent);
             finish();
-        }
+        } //getCurrentUser가 Null이 아니라면 즉, 현재 로그인 된 유저라면 startActivity로 이동
         // Configure Google Sign In
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
@@ -61,7 +61,7 @@ public class LogInActivity extends AppCompatActivity {
     // [START signin]
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
-        startActivityForResult(signInIntent, RC_SIGN_IN);
+        startActivityForResult(signInIntent, RC_SIGN_IN); //startActivityForResult는 실행결과를 토대로 onActivityResult를 실행함
     }
 
     @Override
@@ -103,7 +103,7 @@ public class LogInActivity extends AppCompatActivity {
 
     private void updateUI(FirebaseUser user) { //update ui code here
         if (user != null) {
-            Intent intent = new Intent(this, StartActivity.class);
+            Intent intent = new Intent(this, LogInActivity.class);
             startActivity(intent);
             finish();
         }

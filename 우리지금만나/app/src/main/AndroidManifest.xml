@@ -12,7 +12,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="Where_API_KEY" />
+            android:value="Where_API" />
 
         <activity android:name=".MainActivity" >
             <intent-filter>
@@ -23,6 +23,7 @@
         </activity>
         <activity android:name=".MapsActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".StoreTestActivity"/>
         <activity
             android:name=".ChatActivity" />
         <uses-library android:name="org.apache.http.legacy" android:required="false"/>

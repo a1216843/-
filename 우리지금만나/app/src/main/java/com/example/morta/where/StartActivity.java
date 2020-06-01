@@ -53,14 +53,13 @@ public class StartActivity extends AppCompatActivity {
     }
 
     private void showChatList() {
-        // 리스트 어댑터 생성 및 세팅
-        final ArrayAdapter<String> adapter
+        // 리스트 어댑터 생성 및 세팅, 어댑터는 View와 View에 올릴 데이터를 연결하는 브릿지 역할을 함
+        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1); //첫 번째 파라미터는 Activity, 두 번째는 한 줄에 하나의 아이템만 보여주는 레이아웃, 세 번째는 텅 빈 텍스트뷰 데이터
 
-                = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1);
-        chat_list.setAdapter(adapter);
+        chat_list.setAdapter(adapter); //chat_lisg에 앞서 만든 어댑터를 연결
 
         // 데이터 받아오기 및 어댑터 데이터 추가 및 삭제 등..리스너 관리
-        databaseReference.child("chat").addChildEventListener(new ChildEventListener() {
+        databaseReference.child("chat").addChildEventListener(new ChildEventListener() { // ChildEventListener는 Child에 데이터 변경이 감지되면 호출되는 리스너로 아래처럼 5가지의 오버라이딩이 필요하며 addChildEventListener로 연결해주어야함
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 Log.e("LOG", "dataSnapshot.getKey() : " + dataSnapshot.getKey());
