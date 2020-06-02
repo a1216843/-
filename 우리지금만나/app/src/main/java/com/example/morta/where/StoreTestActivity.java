@@ -47,9 +47,39 @@ public class StoreTestActivity extends AppCompatActivity {
         M_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent_ = getIntent();
+                String EMAIL = intent_.getStringExtra("email");
                 Map<String, Object> user = new HashMap<>();
                 user.put("name", NAME.getText().toString());
                 user.put("age", AGE.getText().toString());
+                user.put("sex", true);
+                db.collection("users").document(EMAIL).set(user);
+                       /*.addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+                            @Override
+                            public void onSuccess(DocumentReference documentReference) {
+                                Log.d(TAG, "DocumentSnapshot added with ID: " + documentReference.getId());
+                            }
+                        })
+                        .addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                Log.w(TAG, "Error adding document", e);
+                            }
+                        });*/
+                Intent intent = new Intent(StoreTestActivity.this, StartActivity.class);
+                intent.putExtra("email", EMAIL);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        W_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Map<String, Object> user = new HashMap<>();
+                user.put("name", NAME.getText().toString());
+                user.put("age", AGE.getText().toString());
+                user.put("sex", false);
                 db.collection("users")
                         .add(user)
                         .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
@@ -64,22 +94,7 @@ public class StoreTestActivity extends AppCompatActivity {
                                 Log.w(TAG, "Error adding document", e);
                             }
                         });
-                /*intent.putExtra("user_name", NAME.getText().toString());
-                intent.putExtra("user_name", AGE.getText().toString());
-                intent.putExtra("user_sex", true);*/
                 Intent intent = new Intent(StoreTestActivity.this, StartActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
-        W_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(StoreTestActivity.this , StartActivity.class);
-                intent.putExtra("user_name", NAME.getText().toString());
-                intent.putExtra("user_name", AGE.getText().toString());
-                intent.putExtra("user_sex", false);
                 startActivity(intent);
                 finish();
             }

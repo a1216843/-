@@ -42,6 +42,7 @@ public class LogInActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance(); //사용자 인증기능을 하는 FirebaseAuth에 Instance를 가져옴
         if (mAuth.getCurrentUser() != null) {
             Intent intent = new Intent(getApplication(), StoreTestActivity.class);
+            intent.putExtra("email", mAuth.getCurrentUser().getEmail());
             startActivity(intent);
             finish();
         } //getCurrentUser가 Null이 아니라면 즉, 현재 로그인 된 유저라면 startActivity로 이동

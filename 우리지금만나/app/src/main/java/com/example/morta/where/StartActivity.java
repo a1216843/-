@@ -1,6 +1,8 @@
 package com.example.morta.where;
 
 import android.content.Intent;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,19 +12,26 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class StartActivity extends AppCompatActivity {
 
     private EditText user_chat, user_edit;
     private Button user_next;
     private ListView chat_list;
+    String name;
 
     private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
+    private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private DatabaseReference databaseReference = firebaseDatabase.getReference();
 
     @Override
@@ -34,16 +43,26 @@ public class StartActivity extends AppCompatActivity {
         user_edit = (EditText) findViewById(R.id.user_edit);
         user_next = (Button) findViewById(R.id.user_next);
         chat_list = (ListView) findViewById(R.id.chat_list);
+        Intent intent_ =getIntent();
+        String EMAIL = intent_.getStringExtra("email");
+
+        DocumentReference docRef = db.collection("users").document(EMAIL);
+        docRef.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+            @Override
+            public void onSuccess(DocumentSnapshot documentSnapshot) {
+               name = documentSnapshot.get("name").toString();
+            }
+        });
 
         user_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (user_edit.getText().toString().equals("") || user_chat.getText().toString().equals(""))
+                if (user_edit.getText().toString().equals("") || user_chat.getText().toString().equals("")) //user_edit 내용 xml에서 삭제하고, 이 부분 수정해야함
                     return;
 
                 Intent intent = new Intent(StartActivity.this, ChatActivity.class);
                 intent.putExtra("chatName", user_chat.getText().toString());
-                intent.putExtra("userName", user_edit.getText().toString());
+                intent.putExtra("userName", name);
                 startActivity(intent);
             }
         });
