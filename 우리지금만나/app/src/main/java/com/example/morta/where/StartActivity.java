@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -39,9 +40,6 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
 
-        user_chat = (EditText) findViewById(R.id.user_chat);
-        user_edit = (EditText) findViewById(R.id.user_edit);
-        user_next = (Button) findViewById(R.id.user_next);
         chat_list = (ListView) findViewById(R.id.chat_list);
         Intent intent_ =getIntent();
         String EMAIL = intent_.getStringExtra("email");
@@ -54,19 +52,6 @@ public class StartActivity extends AppCompatActivity {
             }
         });
 
-        user_next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (user_edit.getText().toString().equals("") || user_chat.getText().toString().equals("")) //user_edit 내용 xml에서 삭제하고, 이 부분 수정해야함
-                    return;
-
-                Intent intent = new Intent(StartActivity.this, ChatActivity.class);
-                intent.putExtra("chatName", user_chat.getText().toString());
-                intent.putExtra("userName", name);
-                startActivity(intent);
-            }
-        });
-
         showChatList();
 
     }
@@ -76,6 +61,16 @@ public class StartActivity extends AppCompatActivity {
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1); //첫 번째 파라미터는 Activity, 두 번째는 한 줄에 하나의 아이템만 보여주는 레이아웃, 세 번째는 텅 빈 텍스트뷰 데이터
 
         chat_list.setAdapter(adapter); //chat_lisg에 앞서 만든 어댑터를 연결
+
+        chat_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(StartActivity.this, ChatActivity.class);
+                intent.putExtra("chatName", chat_list.getItemAtPosition(position).toString());
+                intent.putExtra("userName", name);
+                startActivity(intent);
+            }
+        });
 
         // 데이터 받아오기 및 어댑터 데이터 추가 및 삭제 등..리스너 관리
         databaseReference.child("chat").addChildEventListener(new ChildEventListener() { // ChildEventListener는 Child에 데이터 변경이 감지되면 호출되는 리스너로 아래처럼 5가지의 오버라이딩이 필요하며 addChildEventListener로 연결해주어야함
@@ -105,6 +100,7 @@ public class StartActivity extends AppCompatActivity {
 
             }
         });
+
 
     }
 }

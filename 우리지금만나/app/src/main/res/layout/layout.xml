@@ -21,48 +21,36 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/button1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="추천 장소"
-                tools:layout_editor_absoluteX="319dp"
-                tools:layout_editor_absoluteY="581dp" />
+                android:text="추천 장소" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:text="목적지 설정"
-                app:layout_constraintEnd_toStartOf="@+id/button3"
-                app:layout_constraintStart_toEndOf="@+id/button"
-                tools:layout_editor_absoluteY="581dp" />
+                android:text="목적지 설정" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="위치갱신"
-                tools:layout_editor_absoluteX="219dp"
-                tools:layout_editor_absoluteY="581dp" />
+                android:text="위치갱신" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="9dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginEnd="4dp"
-                android:layout_marginRight="4dp"
-                android:text="채팅방으로"
-                app:layout_constraintEnd_toStartOf="@+id/button4"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="581dp" />
+                android:text="채팅방으로" />
+
+            </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 

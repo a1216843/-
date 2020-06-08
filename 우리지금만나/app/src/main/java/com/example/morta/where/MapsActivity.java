@@ -52,7 +52,7 @@ import android.widget.Button;
 public class MapsActivity extends AppCompatActivity
    implements OnMapReadyCallback, ActivityCompat.OnRequestPermissionsResultCallback
 {
-        Button btn;
+        Button btn1, btn2, btn3, btn4;
         private GoogleMap mMap;
         private  Marker currentMarker = null;
 
@@ -96,9 +96,9 @@ public class MapsActivity extends AppCompatActivity
 
             SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
             mapFragment.getMapAsync(this);
-        btn = (Button) findViewById(R.id.button);
+        btn4 = (Button) findViewById(R.id.button4);
 
-        btn.setOnClickListener(new View.OnClickListener()
+        btn4.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
@@ -146,14 +146,30 @@ public class MapsActivity extends AppCompatActivity
 
             mMap.getUiSettings().setMyLocationButtonEnabled(true);
             mMap.animateCamera(CameraUpdateFactory.zoomTo(15));
-            mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener()
+            btn2 = (Button) findViewById(R.id.button2);
+
+            btn2.setOnClickListener(new View.OnClickListener()
             {
                 @Override
-                public  void onMapClick(LatLng latLng)
+                public void onClick(View v)
                 {
-                    Log.d( TAG, "onMapClick :");
+                    mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener()
+                    {
+                        @Override
+                        public  void onMapClick(LatLng point)
+                        {
+                            MarkerOptions mOptions =new MarkerOptions();
+                            mOptions.title("마커 좌표");
+                            Double latitude = point.latitude;
+                            Double longitude = point.longitude;
+                            mOptions.snippet(latitude.toString() + ", "+ longitude.toString());
+                            mOptions.position(new LatLng(latitude, longitude));
+                            googleMap.addMarker(mOptions);
+                        }
+                    });
                 }
             });
+
         }
 
         LocationCallback locationCallback = new LocationCallback()
