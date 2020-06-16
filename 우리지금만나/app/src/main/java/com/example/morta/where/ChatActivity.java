@@ -15,11 +15,13 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.functions.FirebaseFunctions;
 
 public class ChatActivity extends AppCompatActivity {
 
     private String CHAT_NAME;
     private String USER_NAME;
+    private String EMAIL;
 
     private ListView chat_view;
     private EditText chat_edit;
@@ -33,12 +35,17 @@ public class ChatActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chat);
 
+        Intent intent = getIntent();
+        CHAT_NAME = intent.getStringExtra("chatName");
+        USER_NAME = intent.getStringExtra("userName");
+
         Button m_btn = (Button)findViewById(R.id.map_button);
 
         m_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ChatActivity.this, com.example.morta.where.MapsActivity.class);
+                intent.putExtra("chat_name", CHAT_NAME);
                 startActivity(intent);
             }
         });
@@ -48,13 +55,10 @@ public class ChatActivity extends AppCompatActivity {
         chat_edit = (EditText) findViewById(R.id.chat_edit);
         chat_send = (Button) findViewById(R.id.chat_sent);
 
-        // 로그인 화면에서 받아온 채팅방 이름, 유저 이름 저장
-        Intent intent = getIntent();
-        CHAT_NAME = intent.getStringExtra("chatName");
-        USER_NAME = intent.getStringExtra("userName");
 
         // 채팅 방 입장
         openChat(CHAT_NAME);
+        databaseReference.child("place").child(CHAT_NAME).child("  ").setValue(" ");
 
         // 메시지 전송 버튼에 대한 클릭 리스너 지정
         chat_send.setOnClickListener(new View.OnClickListener() {
@@ -74,6 +78,7 @@ public class ChatActivity extends AppCompatActivity {
     private void addMessage(DataSnapshot dataSnapshot, ArrayAdapter<String> adapter) {
         ChatDTO chatDTO = dataSnapshot.getValue(ChatDTO.class);
         adapter.add(chatDTO.getUserName() + " : " + chatDTO.getMessage());
+        Log.d("layout", "채팅방메세지:"+dataSnapshot);
     }
 
     private void removeMessage(DataSnapshot dataSnapshot, ArrayAdapter<String> adapter) {

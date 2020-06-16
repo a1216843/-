@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.weet.weet.StartActivity"
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 
@@ -12,9 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-
-
         <LinearLayout
             android:layout_weight="2"
             android:layout_width="match_parent"
@@ -27,6 +23,24 @@
                 android:text="현재 개설된 채팅방"
                 android:layout_marginBottom="20dp"
                 android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/user_chat"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="새로운 채팅"
+                android:layout_gravity="left"
+                android:gravity="center" />
+            <Button
+                android:id="@+id/user_next"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="방 만들기" />
+            </LinearLayout>
             <ListView
                 android:id="@+id/chat_list"
                 android:layout_width="match_parent"
@@ -36,6 +50,7 @@
             </ListView>
         </LinearLayout>
     </LinearLayout>
+
 
 
 </RelativeLayout>

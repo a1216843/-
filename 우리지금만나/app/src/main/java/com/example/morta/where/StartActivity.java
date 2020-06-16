@@ -42,7 +42,7 @@ public class StartActivity extends AppCompatActivity {
 
         chat_list = (ListView) findViewById(R.id.chat_list);
         Intent intent_ =getIntent();
-        String EMAIL = intent_.getStringExtra("email");
+        final String EMAIL = intent_.getStringExtra("email");
 
         DocumentReference docRef = db.collection("users").document(EMAIL);
         docRef.get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
@@ -51,8 +51,19 @@ public class StartActivity extends AppCompatActivity {
                name = documentSnapshot.get("name").toString();
             }
         });
-
         showChatList();
+        user_next = (Button) findViewById(R.id.user_next);
+        user_chat = (EditText) findViewById(R.id.user_chat);
+        user_next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (user_chat.getText().toString().equals(""))
+                    return;
+                Intent intent = new Intent(StartActivity.this, ChatActivity.class);
+                intent.putExtra("chatName", user_chat.getText().toString());
+                intent.putExtra("userName", name);
+                startActivity(intent);
+            }});
 
     }
 

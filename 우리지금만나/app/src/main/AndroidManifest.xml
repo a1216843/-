@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.morta.where" >
+    package="com.example.morta.where">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:allowBackup="true"
@@ -8,32 +13,49 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar" >
-
+        android:theme="@style/Theme.AppCompat.NoActionBar">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="Where_API_KEY" />
+            android:value=WHERE_API_KEY />
 
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MapsActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".StoreTestActivity"/>
         <activity
-            android:name=".ChatActivity" />
-        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-        <activity android:name=".StartActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".LogInActivity"
-            android:screenOrientation="portrait"/>
-    </application>
+            android:name=".MapsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".StoreTestActivity" />
+        <activity android:name=".ChatActivity" />
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".StartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LogInActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".Service_GPS"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="location"
+            android:stopWithTask="false"></service>
+
+        <service android:name=".GPSBackgroundSvc">
+            <intent-filter>
+                <action android:name="com.example.morta.where"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+
+    </application>
 
 </manifest>

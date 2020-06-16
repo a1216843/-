@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -24,6 +25,10 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class LogInActivity extends AppCompatActivity {
     private FirebaseAuth mAuth = null;
@@ -41,6 +46,7 @@ public class LogInActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance(); //사용자 인증기능을 하는 FirebaseAuth에 Instance를 가져옴
         if (mAuth.getCurrentUser() != null) {
+            Log.d("login - curuser_null", "시발롬아");
             Intent intent = new Intent(getApplication(), StoreTestActivity.class);
             intent.putExtra("email", mAuth.getCurrentUser().getEmail());
             startActivity(intent);
@@ -92,6 +98,15 @@ public class LogInActivity extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Snackbar.make(findViewById(R.id.layout_login), "Authentication Successed.", Snackbar.LENGTH_SHORT).show();
                             FirebaseUser user = mAuth.getCurrentUser();
+                            FirebaseAuth mAuth = FirebaseAuth.getInstance();
+                            String email= mAuth.getCurrentUser().getEmail();
+                            FirebaseFirestore db = FirebaseFirestore.getInstance();
+                            Map<String, Object> first = new HashMap<>();
+                            first.put("name", "");
+                            db.collection("users").document(email).set(first);
+                            Map<String, Object> sec = new HashMap<>();
+                            sec.put("first_field", "");
+                            db.collection("users").document(email).collection("User_data").document("user_history").set(sec);
                             updateUI(user);
                         } else {
                             // If sign in fails, display a message to the user.
